@@ -62,7 +62,7 @@ contract Upload
         return value[_user];
     }
 
-    function shareAddress() public view returns(Access[] memory)
+    function shareAccess() public view returns(Access[] memory)
     {
         return accessList[msg.sender];
     }
